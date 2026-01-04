@@ -293,7 +293,7 @@ export default function LessonPage() {
 
             {/* Content */}
             <section className="relative z-10 pb-40 md:pb-36">
-                <div style={{ maxWidth: '800px', margin: '0 auto', padding: '0 16px md:0 24px' }}>
+                <div className="max-w-[800px] mx-auto px-4 md:px-6">
                     <AnimatePresence mode="wait">
                         <motion.div
                             key={currentStep}
