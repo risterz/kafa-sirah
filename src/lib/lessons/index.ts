@@ -29,7 +29,7 @@ export interface GradeData {
 // Darjah 1 - Pengenalan Sirah & Kelahiran Nabi
 export const darjah1: GradeData = {
     id: 1,
-    title: 'Darjah 1',
+    title: 'Tahun 1',
     subtitle: 'Kelahiran Nabi',
     description: 'Kenali Sirah & Kelahiran Rasulullah SAW',
     color: '#FF6B6B',
@@ -169,7 +169,7 @@ export const darjah1: GradeData = {
 // Darjah 2 - Zaman Kanak-kanak & Remaja Nabi
 export const darjah2: GradeData = {
     id: 2,
-    title: 'Darjah 2',
+    title: 'Tahun 2',
     subtitle: 'Zaman Kanak-kanak',
     description: 'Sifat Al-Amin & Kehidupan Awal Baginda',
     color: '#FFD93D',
@@ -300,7 +300,7 @@ export const darjah2: GradeData = {
 // Darjah 3 - Wahyu & Dakwah Rahsia
 export const darjah3: GradeData = {
     id: 3,
-    title: 'Darjah 3',
+    title: 'Tahun 3',
     subtitle: 'Wahyu Pertama',
     description: 'Turunnya Wahyu & Permulaan Dakwah',
     color: '#4ECDC4',
@@ -431,7 +431,7 @@ export const darjah3: GradeData = {
 // Darjah 4 - Dakwah Terang & Hijrah
 export const darjah4: GradeData = {
     id: 4,
-    title: 'Darjah 4',
+    title: 'Tahun 4',
     subtitle: 'Dakwah & Hijrah',
     description: "Penentangan Quraisy & Isra' Mi'raj",
     color: '#9B5DE5',
@@ -562,7 +562,7 @@ export const darjah4: GradeData = {
 // Darjah 5 - Pembangunan Madinah & Wafat
 export const darjah5: GradeData = {
     id: 5,
-    title: 'Darjah 5',
+    title: 'Tahun 5',
     subtitle: 'Madinah & Wafat',
     description: 'Pembangunan Islam & Kewafatan Rasulullah',
     color: '#54A0FF',

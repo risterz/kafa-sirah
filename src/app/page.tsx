@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 const grades = [
   {
     id: 1,
-    title: 'Darjah 1',
+    title: 'Tahun 1',
     subtitle: 'Nabi Kita 👶',
     color: 'text-pink-500',
     bg: 'bg-pink-100',
@@ -17,7 +17,7 @@ const grades = [
   },
   {
     id: 2,
-    title: 'Darjah 2',
+    title: 'Tahun 2',
     subtitle: 'Zaman Kanak-kanak 🪁',
     color: 'text-amber-500',
     bg: 'bg-amber-100',
@@ -27,7 +27,7 @@ const grades = [
   },
   {
     id: 3,
-    title: 'Darjah 3',
+    title: 'Tahun 3',
     subtitle: 'Wahyu Pertama 📖',
     color: 'text-emerald-500',
     bg: 'bg-emerald-100',
@@ -37,7 +37,7 @@ const grades = [
   },
   {
     id: 4,
-    title: 'Darjah 4',
+    title: 'Tahun 4',
     subtitle: 'Dakwah & Hijrah 🐪',
     color: 'text-violet-500',
     bg: 'bg-violet-100',
@@ -47,7 +47,7 @@ const grades = [
   },
   {
     id: 5,
-    title: 'Darjah 5',
+    title: 'Tahun 5',
     subtitle: 'Madinah & Wafat 🏞️',
     color: 'text-blue-500',
     bg: 'bg-blue-100',
@@ -138,7 +138,7 @@ export default function Home() {
             <div className="inline-block px-6 py-2 bg-white rounded-full border-2 border-primary-light shadow-md transform -rotate-1">
               <h2 className="text-2xl font-extrabold text-primary-dark flex items-center gap-2">
                 <Sparkles className="text-secondary fill-secondary" />
-                PILIH DARJAH KAMU
+                PILIH TAHUN KAMU
                 <Sparkles className="text-secondary fill-secondary" />
               </h2>
             </div>

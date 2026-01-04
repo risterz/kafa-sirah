@@ -54,7 +54,7 @@ export default function GradePage() {
                     </Link>
 
                     <div className={`px-6 py-2 rounded-full font-black text-white shadow-md ${theme.button}`}>
-                        DARJAH {gradeId}
+                        TAHUN {gradeId}
                     </div>
                 </div>
             </div>
@@ -124,7 +124,15 @@ export default function GradePage() {
                                     w-20 h-20 rounded-2xl flex items-center justify-center text-4xl shadow-inner mb-2
                                     bg-gray-50 border-2 border-gray-100 group-hover:bg-yellow-100 transition-colors
                                 `}>
-                                    {lesson.emoji}
+                                    {lesson.icon ? (
+                                        <img
+                                            src={lesson.icon}
+                                            alt={lesson.title}
+                                            className="w-12 h-12 object-contain drop-shadow-sm"
+                                        />
+                                    ) : (
+                                        lesson.emoji
+                                    )}
                                 </div>
 
                                 <div className="flex-1 w-full">
